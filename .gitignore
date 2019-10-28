@@ -1,0 +1,17 @@
+#datasheets
+*
+/*
+
+!*.bat
+!*.cmd
+!*.txt
+!*.log
+
+!*.htm
+!*.html
+
+!*.jpg
+!*.png
+!*.gif
+
+!*.gitignore
