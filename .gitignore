@@ -14,4 +14,7 @@
 !*.png
 !*.gif
 
+!*.pdf
+!*.djvu
+
 !*.gitignore

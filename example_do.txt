@@ -1,0 +1,1 @@
+for /f "tokens=*" %i in ('dir /b ^| find /i "Power" ^| find /V /i "PWR"') do (echo "%i") 
