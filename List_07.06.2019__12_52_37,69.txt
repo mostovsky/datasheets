@@ -1,0 +1,131 @@
+1n4148
+ADG1408_1409__CMOS Multiplexers.pdf
+adm3202_3222_1385 _ Low Power, 3.3 V, RS-232 _ Line drivers-receivers.pdf
+adm3202_3222_1385 _ RS232.pdf
+ADT7301_termo.pdf
+adum1200_1201 _ Dual-Channel Digital Isolators  _5V.pdf
+ATmega48_88_168_p.pdf
+Atmel-7530-Automotive-Microcontrollers-ATmega48-ATmega88-ATmega168_Datasheet.pdf
+A_ad824.pdf
+A_ina149.pdf
+A_ina159.pdf
+A_opa4130.pdf
+CreateList_of_files.bat
+C_Capasitor_K10-17v.pdf
+de475_102n21a _ n-chan _ 1000V_24A_450mOhm.pdf
+deic420 _ 20 Ampere Low-Side Ultrafast RF MOSFET Driver _ .pdf
+DIFF__BL179A__RS485_LVDS_so8_pdip8.pdf
+DIFF__SN65LBC179A__RS485_so8_pdip8.pdf
+DRV _  IX6R11 _ 600 Volt, 6 Ampere High & Low-side Driver for N-Channel MOSFETs and IGBTs.pdf
+D_VD_bridge_KBPC.pdf
+D_VD_SEMIKRON_DataSheet_DBI_25_P_07641480.pdf
+D_VD_Zener__SA24.pdf
+Ethernet-кабели
+example_do.txt
+FCP11N60_FCPF.pdf
+FII24N17AH1 _ High Voltage IGBT _ 1700V_18A.pdf
+FUSE__SIBA.pdf
+ild207t_Optocoupler, Phototransistor Output, Dual Channel.pdf.lnk
+IMG_2841.JPG
+ir2110_2113S__HIGH AND LOW SIDE DRIVER_2A.pdf (2).lnk
+ir2110_2113S__HIGH AND LOW SIDE DRIVER_2A.pdf.lnk
+IR2153(D)(S).pdf.lnk
+ir4426__DUAL LOW SIDE DRIVER.pdf.lnk
+irf530ns.pdf.lnk
+IRS2153(1)D.pdf.lnk
+irs2153d__SELF-OSCILLATING HALF-BRIDGE DRIVER IC.pdf.lnk
+IRS27952S_27951__half_bridge_converter_control__300_and_900mA.pdf.lnk
+ix6r11s3.pdf.lnk
+KBPC-6.pdf.lnk
+LED
+list_06.06.2019.txt
+list_06.06.2019_13_08_48
+list_06.06.2019_13_09_12
+list_06.06.2019_13_10_04.txt
+List_07.06.2019__12_52_37,69.txt
+LM2596-D _ 3.0 A, Step-Down Switching.PDF
+lm2596_как замена OPA548.pdf.lnk
+LT1054 Switched-Capacitor Voltage Converters With Regulators.pdf
+LT1370fs _ ВС-ВС.pdf
+MAX1487-MAX491 _ rs-485.pdf
+MC34063A-D.PDF
+MCU__1887BE1Y__TO_RUS_378pages.pdf
+MCU__STM32F103.pdf
+MCU__STM32F103x8__cd00161566.pdf
+MEM_1Kb__DS2502__ Add-Only Memory _ unique.pdf
+MUXA_8ch__K590KN6__[RUS].pdf
+NTC__SCK__Power Thermistor for Limiting Inrush Current.pdf
+opa548.pdf.lnk
+OPTO_1ch_M__PVG612__2M_nopen_0.4mA@5mA@25mA@6Vr_60VAC@1A_60VDC@2A_150mOhm_4kV@1pF_DIP6_IR_6pages.pdf
+OPTO_1ch_TRIAC__MOC3052__60mA@3Vr@100mW_600V@1A@300mW_7.5kV_DIP6_FAIRCHILD_11pages.pdf
+OPTO_1ch_VT__PC817__50mA@1A@6Vr@70mW_6V@50mA@150mW@35Vr_5kV_DIP4_SHARP_15pages_73758.pdf
+OPTO_1ch_VT__SFH620A__60mA@2.5A@100mW_7V@50mA@100mA@150mW@70Vr_SymPol_DIP4_VISHAY_9pages.pdf
+OPTO_1ch__249KP8U_249KP8VU_MOC8101_SFH6106_4N47U__60V_4us_RUS_1pages.pdf
+OPTO_1ch__249KP8U_249KP8VU__VT_RUS_Proton_2pages.pdf
+p2g3 _ шаговые искатели _.pdf
+p2g3 _ шаговые искатели.pdf
+PWR_DRV__MC34931_5.0_A_H-Bridge_for_DC_motor.pdf
+PWR__IL78XX.pdf
+PWR__traco__TEN20WI.pdf
+PWR__traco__TES5.pdf
+PWR__traco__TES6.pdf
+PWR__traco__THI2.pdf
+PWR__traco__TMR6.pdf
+PWR__traco__TMV.pdf
+RELAY_1ch_250VAC  30VDC __NRP-07__100mOhm.pdf
+RELAY_1p_240VAC@7A__SRD__03V_05V_06V_09V_12V_24V_48V_DC_360mW(L)_450mW(D)_100mOhm_10ms_5ms_19.1x15.5x15.3.pdf
+RELAY_1p_250VAC@3A__SRS__03V_05V_06V_09V_12V_24V_DC_200mW(H)_360mW(L)_450mW(D)_100mOhm_10ms_5ms_15.4x10.4x11.6.pdf
+RELAY_2p_125VAC@1A__SRC__5V_6V_9V_12V_18V_24V_50mOhm_10ms_10ms_200mW(H)_360mW(L)_20.6x10.2x11.5.pdf
+rename_example.txt
+sf18.pdf.lnk
+Some_Chifr_Info.rar
+Test_rename.bat
+TVS__1.5KE__from_ST_DOC001642283.pdf
+TVS__1.5KE__ЗАЩИТНЫЕ ДИОДЫ _ у нас_TVS_DO-201_на_1,5KE440CA.pdf
+TVS__SA_1.5KE__table.pdf
+TVS__SMF__supressors_.pdf
+VD_BRIDGE__TS4B01G__ SERIES_F13-523703.pdf
+VD_TRIAC_200V_400V_600V@600mA__MAC97_(A4-A6-A8)__.PDF
+VD_TRIAC_600V@12A__BTA12__.pdf
+VD__HER_SF_1N_FR_HVM_BY_DL__.pdf
+VT.bat
+VT.bat__2019_06_07___09_36_54_.[worked].rar
+VT.bat__2019_06_07___09_37_07_.rar
+VT_NI_600V@42A@75A@150A__IRGP50B60PD__61mOhm_370W_IR_10pages_94624.pdf
+VT_NI_600V@45A@75A@150A__IRGP50B60PD1__61mOhm_390W_IR_10pages_94625A.pdf
+VT_NM_100V@12A17A@60A__IRF530N__90mOhm_70W_раскачка 150 ИСН.pdf
+VT_NM_1kV@3.9@6.1@24A__IRFPG50_SiHFPG50__2Ohm_190W_2.8nF_TO247_VISHAY_9pages.pdf
+VT_NM_20V@64A@77A@308A__IRF3704__9mOhm_TO220_D2PAK(S)_TO262(L).pdf
+VT_NM_20V@67A@110A@420A__IRL3502__140W_7mOhm_IntRect.pdf
+VT_NM_500V@44A__IXFT44N50P_IXFH44N50P_IXFK44N50P__140mOhm_ds99366f(ixfh-ft-fk44n50p) _1.7J_658W_.pdf
+VT_NM_55V@12A@17A@68A__IRFZ24N__70mOhm_45W_TO220.pdf
+VT_NM_600V@11A__STP11NM60__450mOhm_TO220_D2PAK_ST_21pages.pdf
+VT_NM_600V@2.3A@14A__IRFBC30S__11pages.pdf
+VT_NM_600V@2.3A@14A__IRFBC30S__9pages.pdf
+VT_NM_600V@6.8A@10.8A__FCPF11N60NT__255mOhm_TO220(F)_FAIRCHILD_12pages.pdf
+VT_NM_60V@300mA__2N7002__830mW_5Ohm_.pdf
+VT_NM_60V@36A@50A@200A__IRFZ44__28mOhm_150W_TO220.pdf
+VT_NM_650V@11A__STP11NM60FP_STB11NM60__450mOhm_TO220(FP)_D2PAK_i2PAK_ST_16pages.pdf
+VT_npn_30V_45V_60V@7.5A__KT837__INTEGRAL_2pages.pdf
+VT_npn_60V_80V@1A__BC637_BC639__high_current.PDF
+VT_npn_65V_45V_30V@100mA__BC546_BC547_BC548_BC549_BC550__500mW.pdf
+VT_PM_-55V@-8.5A@-12A@-48A__IRF9Z24N__175mOhm_45W_96mJ_TO220__.pdf
+VT_PM_400V@25A_600V@16.5A_750V@12.5A__КП707_KP707__1.6nF.pdf
+VT_pnp_-65V_-45V_-30V@-100mA@-200mA__BC556_BC557_BC558__.PDF
+[ethernet-mcu].lnk
+[радиодетали] (2).lnk
+[радиодетали].lnk
+_INFO__AN1001_rus__методика выбора драйвера для IGBT и MOSFET транзисторов.pdf
+_INFO__AN978__Infineon-HV_Floating_MOS_Gate_Drivers-AN-v01_00-EN__Application Note AN-978.pdf
+_INFO__AppNote_AN-994__Maximizing the Effectiveness of Your SMD assemblies.pdf
+_INFO__art3__Схемотехнические способы борьбы с защелкиванием в каскадах с IGBT транзисторами .pdf
+_INFO__RS485 _ Реализация интерфейса RS485.pdf
+АЛС_321.jpg
+АЛС_321_324.jpg
+Брежнева К М Транзисторы Для Аппаратуры Широкого Применения.djvu
+Диодовый мост GBPC6.pdf.lnk
+Диодовый мост KBPC10005 THRU KBPC1010.pdf.lnk
+мдм
+Новая папка
+Однофазная мостовая схема выпрямления.docx
+термистор _ SCK.pdf.lnk

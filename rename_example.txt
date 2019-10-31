@@ -1,0 +1,143 @@
+
+D:\data\[datasheets]>echo cls && setlocal enabledelayedexpansion && for /f "toke
+ns=*" %i in ('dir /b ^| find /i "Power_" ^| find /V /i "PWR"') do ( set "asd=%i"
+ && echo new_name="%asd:Power__=PWR__%" )> rename_example.txt
+cls
+
+D:\data\[datasheets]>(set "asd=Power__traco_power_TES+6-2410.pdf"   && echo new_
+name="PWR__traco_power_tmr6.pdf"  ) 1>rename_example.txt
+
+D:\data\[datasheets]>(set "asd=Power__traco_power_tes5.pdf"   && echo new_name="
+PWR__traco_power_tmr6.pdf"  ) 1>rename_example.txt
+
+D:\data\[datasheets]>(set "asd=Power__traco_power_thi2.pdf"   && echo new_name="
+PWR__traco_power_tmr6.pdf"  ) 1>rename_example.txt
+
+D:\data\[datasheets]>(set "asd=Power__traco_power_tmr6.pdf"   && echo new_name="
+PWR__traco_power_tmr6.pdf"  ) 1>rename_example.txt
+
+_____________
+D:\data\[datasheets]>(echo Power__traco_power_TES+6-2410.pdf   && set "asd=Power
+__traco_power_TES+6-2410.pdf"   && ren "Power__traco_power_TES+6-2410.pdf" "PWR_
+_traco_power_TES+6-2410.pdf"  )
+Power__traco_power_TES+6-2410.pdf
+
+D:\data\[datasheets]>cls && setlocal enabledelayedexpansion && for /f "tokens=*"
+ %i in ('dir /b ^| find /i "Power__" ^| find /V /i "PWR"') do ( echo %i && set "
+asd=%i" && ren "%asd%" "%asd:Power__=PWR__%" )
+_____________________
+D:\data\[datasheets]>cls && setlocal enabledelayedexpansion && for /f "tokens=*"
+ %i in ('dir /b ^| find /i "power_traco"') do ( echo %i && set "asd=%i" && ren "
+%asd%" "%asd:power_traco_=traco__%" )
+_____________________
+
+D:\data\[datasheets]>cls && set "to_replace=1234__"  && set "to_find=VT_MN_" && setlocal enabledelayedexpansion && for /f "tokens=*" %i in ('dir /b ^| find /i " %to_find%"') do ( echo. & echo. && echo Founded "%i" && echo. && set "asd=%i" && call echo ren "%asd%" "%asd:%to_find%=%to_replace%%" )
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_100V@12A17A@60A__
+IRF530N__90mOhm_70W_раскачка 150 ИСН.pdf"   && echo.   && set "asd=VT_MN_100V@12
+A17A@60A__IRF530N__90mOhm_70W_раскачка 150 ИСН.pdf"   && call echo ren "VT_MN_60
+V@300mA__2N7002__830mW_5Ohm_.pdf" "%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_100V@12A17A@60A__IRF530N__90mOhm_70W_раскачка 150 ИСН.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_100V@12A17A@60A__IRF530N__9
+0mOhm_70W_раскачка 150 ИСН.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_500V@44A__IXFT44N
+50P_IXFH44N50P_IXFK44N50P__140mOhm_ds99366f(ixfh-ft-fk44n50p) _1.7J_658W_.pdf"
+ && echo.   && set "asd=VT_MN_500V@44A__IXFT44N50P_IXFH44N50P_IXFK44N50P__140mOh
+m_ds99366f(ixfh-ft-fk44n50p) _1.7J_658W_.pdf"   && call echo ren "VT_MN_60V@300m
+A__2N7002__830mW_5Ohm_.pdf" "%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_500V@44A__IXFT44N50P_IXFH44N50P_IXFK44N50P__140mOhm_ds99366f(ixfh
+-ft-fk44n50p) _1.7J_658W_.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_500V@44A__IXFT44N50P_IXFH44
+N50P_IXFK44N50P__140mOhm_ds99366f(ixfh-ft-fk44n50p) _1.7J_658W_.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_600V@11A__STP11NM
+60__450mOhm_isn_dop.pdf"   && echo.   && set "asd=VT_MN_600V@11A__STP11NM60__450
+mOhm_isn_dop.pdf"   && call echo ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf"
+"%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_600V@11A__STP11NM60__450mOhm_isn_dop.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_600V@11A__STP11NM60__450mOh
+m_isn_dop.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_600V@2.3A@14A__IR
+FBC30S__11pages_в ИСН__91111.pdf"   && echo.   && set "asd=VT_MN_600V@2.3A@14A__
+IRFBC30S__11pages_в ИСН__91111.pdf"   && call echo ren "VT_MN_60V@300mA__2N7002_
+_830mW_5Ohm_.pdf" "%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_600V@2.3A@14A__IRFBC30S__11pages_в ИСН__91111.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_600V@2.3A@14A__IRFBC30S__11
+pages_в ИСН__91111.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_600V@2.3A@14A__IR
+FBC30S__9pages_в ИСН__91111_.pdf"   && echo.   && set "asd=VT_MN_600V@2.3A@14A__
+IRFBC30S__9pages_в ИСН__91111_.pdf"   && call echo ren "VT_MN_60V@300mA__2N7002_
+_830mW_5Ohm_.pdf" "%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_600V@2.3A@14A__IRFBC30S__9pages_в ИСН__91111_.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_600V@2.3A@14A__IRFBC30S__9p
+ages_в ИСН__91111_.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_600V@5.4A__FCPF11
+N60NT-D__255mOhm_FAIRCHILD_в ИСН сейчас запаиваем на канал 2k5V раскачки.pdf"
+&& echo.   && set "asd=VT_MN_600V@5.4A__FCPF11N60NT-D__255mOhm_FAIRCHILD_в ИСН с
+ейчас запаиваем на канал 2k5V раскачки.pdf"   && call echo ren "VT_MN_60V@300mA_
+_2N7002__830mW_5Ohm_.pdf" "%asd:VT_MN_=1234_%"  )
+
+
+Founded "VT_MN_600V@5.4A__FCPF11N60NT-D__255mOhm_FAIRCHILD_в ИСН сейчас запаивае
+м на канал 2k5V раскачки.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_600V@5.4A__FCPF11N60NT-D__2
+55mOhm_FAIRCHILD_в ИСН сейчас запаиваем на канал 2k5V раскачки.pdf"
+
+D:\data\[datasheets]>(echo.   & echo.   && echo Founded "VT_MN_60V@300mA__2N7002
+__830mW_5Ohm_.pdf"   && echo.   && set "asd=VT_MN_60V@300mA__2N7002__830mW_5Ohm_
+.pdf"   && call echo ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "%asd:VT_MN_
+=1234_%"  )
+
+
+Founded "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf"
+
+ren "VT_MN_60V@300mA__2N7002__830mW_5Ohm_.pdf" "1234_60V@300mA__2N7002__830mW_5O
+hm_.pdf"
+
+D:\data\[datasheets]>
+_____________________
+
+D:\data\[datasheets]>cls && setlocal enabledalayedexpansion && set "to_replace=VT_NMos__"  && set "to_find=VT_MN_" && echo. && echo. && echo to_find_old="%to_find%" &&echo to_find_new="!to_find!" && echo to_replace_old="%to_replace%" && echo to_perlace_new="!to_replace!" && for /f "tokens=*" %i in ('dir /b ^| find /i"%to_find%"') do (echo. & echo. && echo Founded "%i" && echo. && set "asd=%i" & call echo ren "!asd!" "!asd:%to_find!=%to_replace%%" )
+
+_____________________
+D:\data\[datasheets]>for /f "tokens=*" %i in ( 'dir /b ^| find /i "637"') do (ec
+ho %i)
+
+D:\data\[datasheets]>(echo VT_NPN_60V_80V@1A__BC637_BC639__high_current.PDF )
+VT_NPN_60V_80V@1A__BC637_BC639__high_current.PDF
+
+D:\data\[datasheets]>for /f "tokens=*" %i in ( 'dir /b ^| find /i "637"') do (st
+art "" %i)
+
+D:\data\[datasheets]>(start "" VT_NPN_60V_80V@1A__BC637_BC639__high_current.PDF
+)
+
+D:\data\[datasheets]>
+
+_____________
+
+
+
+
+
+
