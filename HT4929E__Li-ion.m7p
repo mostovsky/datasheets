@@ -1,0 +1,1502 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml version="8.0" projectid="{76688CD9-7F52-442D-A6BC-80085CBE4A2A}">
+  <targets>
+    <target scanner="{3DD0C05C-F5B5-44FD-A77A-8E832CC25300}" enabled="True" visible="True">
+      <options>
+        <pages2localize>1-3</pages2localize>
+        <output_format>0</output_format>
+        <protection_option>0</protection_option>
+        <optimization_method>2</optimization_method>
+        <encodings>
+          <native_encoding>
+            <code>en</code>
+            <encoding/>
+          </native_encoding>
+          <output_language_list>
+            <language>
+              <code>ru</code>
+              <encoding/>
+            </language>
+          </output_language_list>
+        </encodings>
+        <output_lang_delimiter/>
+        <filename>HT4929E__Li-ion.pdf</filename>
+        <output_settings>
+          <output_coding>ISO</output_coding>
+          <output_directory/>
+          <embedding>False</embedding>
+          <file_type>localized</file_type>
+          <output_type>subdirectory</output_type>
+        </output_settings>
+      </options>
+      <stringdata>
+        <row name="PDF.Info.Title" status="new">
+          <native>&quot;DATASHEET SEARCH SITE | WWW.ALLDATASHEET.COM&quot;</native>
+          <lang id="ru" status="auto">&quot;ПОИСК НА САЙТЕ DATASHEET WWW.ALLDATASHEET.COM&quot;</lang>
+        </row>
+        <row name="PDF.Info.Author" status="new">
+          <native>&quot;Provided By ALLDATASHEET.COM(FREE DATASHEET DOWNLOAD SITE)&quot;</native>
+          <lang id="ru" status="auto">&quot;Предоставлено ALLDATASHEET.COM (БЕСПЛАТНО КАДАСОМС СКИС СИТ)&quot;</lang>
+        </row>
+        <row name="PDF.Info.Subject" status="new">
+          <native>&quot;DATASHEET SEARCH, DATABOOK, COMPONENT, FREE DOWNLOAD SITE&quot;</native>
+          <lang id="ru" status="auto">&quot;ПОИСК DATASHEET, DATABOOK, КОМПОНЕНТ, САЙТ БЕСПЛАТНОЙ ЗАГРУЗКИ&quot;</lang>
+        </row>
+        <row name="PDF.Info.Keywords" status="new">
+          <native>&quot;PDF, DATASHEET, PDF DATASHEET, IC, CHIP, SEMICONDUCTOR, TRANSISTOR, ELECTRONIC COMPONENT, ISO COMPONENT, ALLDATASHEET, DATABOOK, CATALOG, ARCHIVE&quot;</native>
+          <lang id="ru" status="auto">&quot;PDF, DATASHEET, PDF DATASHEET, IC, CHIP, SEMICONDUCTOR, TRANSISTOR, ELECTRONIC COMPONENT, ISO COMPONENT, ALLDATASHEET, DATABOOK, CATALOG, ARCHIVE&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[103].Text" status="new">
+          <native>&quot;D-&quot;</native>
+          <lang id="ru" status="auto">&quot;D-&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[104].Text" status="new">
+          <native>&quot;B&quot;</native>
+          <lang id="ru" status="auto">&quot;B&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[105].Text" status="new">
+          <native>&quot;-&quot;</native>
+          <lang id="ru" status="auto">&quot;-&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[106].Text" status="new">
+          <native>&quot;D-&quot;</native>
+          <lang id="ru" status="auto">&quot;D-&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[107].Text" status="new">
+          <native>&quot;B&quot;</native>
+          <lang id="ru" status="auto">&quot;B&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[108].Text" status="new">
+          <native>&quot;+&quot;</native>
+          <lang id="ru" status="auto">&quot;+&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[109].Text" status="new">
+          <native>&quot;HOTCHIP&quot;</native>
+          <lang id="ru" status="auto">&quot;ХОТЧИП&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[110].Text" status="new">
+          <native>&quot;1/6&quot;</native>
+          <lang id="ru" status="auto">&quot;1/6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[111].Text" status="new">
+          <native>&quot;www.hotchip.com.cn&quot;</native>
+          <lang id="ru" status="auto">&quot;www.hotchip.com.cn&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[112].Text" status="new">
+          <native>&quot;Ver1.1&quot;</native>
+          <lang id="ru" status="auto">&quot;Ver1.1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[113].Text" status="new">
+          <native>&quot;HT4929E&quot;</native>
+          <lang id="ru" status="auto">&quot;HT4929E&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[114].Text" status="new">
+          <native>&quot;移动电源管理方案&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й о том, что и есть.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[115].Text" status="new">
+          <native>&quot;产品概述&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[116].Text" status="new">
+          <native>&quot;HT4929&quot;</native>
+          <lang id="ru" status="auto">&quot;HT4929&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[117].Text" status="new">
+          <native>&quot;是一款新构架的单片移动电源管理&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохи.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[118].Text" status="new">
+          <native>&quot;芯片，采用充放端口共用的先进专利技术，以&quot;</native>
+          <lang id="ru" status="auto">&quot;Я, я , я не й, я .&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[119].Text" status="new">
+          <native>&quot;及同步整流技术，外围元件少，性能优秀，可&quot;</native>
+          <lang id="ru" status="auto">&quot;Я, я, я, я, я, я, я, я.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[120].Text" status="new">
+          <native>&quot;以组建出良好的&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йе.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[121].Text" status="new">
+          <native>&quot;1A-in/1A-out&quot;</native>
+          <lang id="ru" status="auto">&quot;1A-in/1A-аут&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[122].Text" status="new">
+          <native>&quot;、单/双&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы/&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[123].Text" status="new">
+          <native>&quot;LED&quot;</native>
+          <lang id="ru" status="auto">&quot;Светодиодные&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[124].Text" status="new">
+          <native>&quot;指示&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[125].Text" status="new">
+          <native>&quot;的移动电源。&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йох.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[126].Text" status="new">
+          <native>&quot;主要特点&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[127].Text" status="new">
+          <native>&quot;◆充电、放电可共用一个端口，智能识别充电&quot;</native>
+          <lang id="ru" status="auto">&quot;Я должен быть в том, что я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[128].Text" status="new">
+          <native>&quot;输入/带载输出；&quot;</native>
+          <lang id="ru" status="auto">&quot;- / я не йод;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[129].Text" status="new">
+          <native>&quot;◆内置最大&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[130].Text" status="new">
+          <native>&quot;1A&quot;</native>
+          <lang id="ru" status="auto">&quot;1a&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[131].Text" status="new">
+          <native>&quot;线性充电模式，充电电流外部&quot;</native>
+          <lang id="ru" status="auto">&quot;Я, я не й, я не й.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[132].Text" status="new">
+          <native>&quot;可调；&quot;</native>
+          <lang id="ru" status="auto">&quot;К.А.;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[133].Text" status="new">
+          <native>&quot;◆涓流/恒流/恒压三段式充电，浮充截止电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопрос: &quot;Я&quot;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[134].Text" status="new">
+          <native>&quot;◆&quot;</native>
+          <lang id="ru" status="auto">&quot;◆&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[135].Text" status="new">
+          <native>&quot;4.20V&quot;</native>
+          <lang id="ru" status="auto">&quot;4.20V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[136].Text" status="new">
+          <native>&quot;（典型值），支持对&quot;</native>
+          <lang id="ru" status="auto">&quot;(Я)&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[137].Text" status="new">
+          <native>&quot;0V&quot;</native>
+          <lang id="ru" status="auto">&quot;0V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[138].Text" status="new">
+          <native>&quot;电池充电；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[139].Text" status="new">
+          <native>&quot;◆内置充电能根据温升自动降低充电电流，&quot;</native>
+          <lang id="ru" status="auto">&quot;Я , я .&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[140].Text" status="new">
+          <native>&quot;130&quot;</native>
+          <lang id="ru" status="auto">&quot;130 г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[141].Text" status="new">
+          <native>&quot;度开始下降，最低可降至&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й, я не й.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[142].Text" status="new">
+          <native>&quot;0&quot;</native>
+          <lang id="ru" status="auto">&quot;0.00&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[143].Text" status="new">
+          <native>&quot;；&quot;</native>
+          <lang id="ru" status="auto">&quot;;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[144].Text" status="new">
+          <native>&quot;◆充电输入端有防反灌功能，不需要防反灌二&quot;</native>
+          <lang id="ru" status="auto">&quot;Я , я не й, я не й.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[145].Text" status="new">
+          <native>&quot;◆&quot;</native>
+          <lang id="ru" status="auto">&quot;◆&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[146].Text" status="new">
+          <native>&quot;极管；&quot;</native>
+          <lang id="ru" status="auto">&quot;К.А.;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[147].Text" status="new">
+          <native>&quot;◆升压使用同步整流电路，最高效率可达&quot;</native>
+          <lang id="ru" status="auto">&quot;Я , я не й, я&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[148].Text" status="new">
+          <native>&quot;91%&quot;</native>
+          <lang id="ru" status="auto">&quot;91%&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[149].Text" status="new">
+          <native>&quot;，&quot;</native>
+          <lang id="ru" status="auto">&quot;,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[150].Text" status="new">
+          <native>&quot;发热低，固定&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[151].Text" status="new">
+          <native>&quot;5.10V&quot;</native>
+          <lang id="ru" status="auto">&quot;5.10V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[152].Text" status="new">
+          <native>&quot;（典型值）输出，不需&quot;</native>
+          <lang id="ru" status="auto">&quot;(Я)&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[153].Text" status="new">
+          <native>&quot;要外部电阻设置；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[154].Text" status="new">
+          <native>&quot;◆升压输出电流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[155].Text" status="new">
+          <native>&quot;1.0A(BTP=3.6V)&quot;</native>
+          <lang id="ru" status="auto">&quot;1.0A (БТП-3,6В)&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[156].Text" status="new">
+          <native>&quot;;具有恒功率输&quot;</native>
+          <lang id="ru" status="auto">&quot;; .&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[157].Text" status="new">
+          <native>&quot;出功能，有完整的过流，短路保护,内置温度&quot;</native>
+          <lang id="ru" status="auto">&quot;Я, я, я, я, я.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[158].Text" status="new">
+          <native>&quot;保护，过温自动停止升压;&quot;</native>
+          <lang id="ru" status="auto">&quot;Я, я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[159].Text" status="new">
+          <native>&quot;◆负载插入自动启动升压，负载移除自动休眠；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я , я не й о том, что делать.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[160].Text" status="new">
+          <native>&quot;◆电池低压提醒功能；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й о том, что в их время он был...&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[161].Text" status="new">
+          <native>&quot;◆支持单灯或者双灯充电与放电指示；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я должен быть в том, что я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[162].Text" status="new">
+          <native>&quot;◆&quot;</native>
+          <lang id="ru" status="auto">&quot;◆&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[163].Text" status="new">
+          <native>&quot;4KV ESD&quot;</native>
+          <lang id="ru" status="auto">&quot;4KV ESD&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[164].Text" status="new">
+          <native>&quot;；&quot;</native>
+          <lang id="ru" status="auto">&quot;;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[165].Text" status="new">
+          <native>&quot;◆固定开关频率&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[166].Text" status="new">
+          <native>&quot;1MHZ&quot;</native>
+          <lang id="ru" status="auto">&quot;1МЧЗ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[167].Text" status="new">
+          <native>&quot;；&quot;</native>
+          <lang id="ru" status="auto">&quot;;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[168].Text" status="new">
+          <native>&quot;◆电池过充、过放保护；&quot;</native>
+          <lang id="ru" status="auto">&quot;В то время как я должен был быть в яйке.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[169].Text" status="new">
+          <native>&quot;ESOP8&quot;</native>
+          <lang id="ru" status="auto">&quot;ESOP8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[170].Text" status="new">
+          <native>&quot;小型封装&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[171].Text" status="new">
+          <native>&quot;典型应用&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[172].Text" status="new">
+          <native>&quot;◆ 移动电源；&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы;&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[173].Text" status="new">
+          <native>&quot;LED&quot;</native>
+          <lang id="ru" status="auto">&quot;Светодиодные&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[174].Text" status="new">
+          <native>&quot;照明系统；&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[175].Text" status="new">
+          <native>&quot;◆ 玩具；&quot;</native>
+          <lang id="ru" status="auto">&quot;К.А.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[176].Text" status="new">
+          <native>&quot;典型应用电路图&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[177].Text" status="new">
+          <native>&quot;LD1&quot;</native>
+          <lang id="ru" status="auto">&quot;LD1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[178].Text" status="new">
+          <native>&quot;Red&quot;</native>
+          <lang id="ru" status="auto">&quot;Красного&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[179].Text" status="new">
+          <native>&quot;C2&quot;</native>
+          <lang id="ru" status="auto">&quot;C2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[180].Text" status="new">
+          <native>&quot;22uF&quot;</native>
+          <lang id="ru" status="auto">&quot;22uF&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[181].Text" status="new">
+          <native>&quot;L1&quot;</native>
+          <lang id="ru" status="auto">&quot;L1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[182].Text" status="new">
+          <native>&quot;4.7uH&quot;</native>
+          <lang id="ru" status="auto">&quot;4.7uH&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[183].Text" status="new">
+          <native>&quot;C1&quot;</native>
+          <lang id="ru" status="auto">&quot;C1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[184].Text" status="new">
+          <native>&quot;10uF&quot;</native>
+          <lang id="ru" status="auto">&quot;10uF&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[185].Text" status="new">
+          <native>&quot;PGND&quot;</native>
+          <lang id="ru" status="auto">&quot;PGND&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[186].Text" status="new">
+          <native>&quot;L1&quot;</native>
+          <lang id="ru" status="auto">&quot;L1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[187].Text" status="new">
+          <native>&quot;BTP&quot;</native>
+          <lang id="ru" status="auto">&quot;Btp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[188].Text" status="new">
+          <native>&quot;VOUT&quot;</native>
+          <lang id="ru" status="auto">&quot;ВУТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[189].Text" status="new">
+          <native>&quot;LX&quot;</native>
+          <lang id="ru" status="auto">&quot;Lx&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[190].Text" status="new">
+          <native>&quot;U1&quot;</native>
+          <lang id="ru" status="auto">&quot;U1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[191].Text" status="new">
+          <native>&quot;HT4929&quot;</native>
+          <lang id="ru" status="auto">&quot;HT4929&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[192].Text" status="new">
+          <native>&quot;KEY&quot;</native>
+          <lang id="ru" status="auto">&quot;Ключ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[193].Text" status="new">
+          <native>&quot;LD2&quot;</native>
+          <lang id="ru" status="auto">&quot;LD2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[194].Text" status="new">
+          <native>&quot;Blue&quot;</native>
+          <lang id="ru" status="auto">&quot;Синий&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[195].Text" status="new">
+          <native>&quot;L2&quot;</native>
+          <lang id="ru" status="auto">&quot;L2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[196].Text" status="new">
+          <native>&quot;PROG&quot;</native>
+          <lang id="ru" status="auto">&quot;Prog&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[197].Text" status="new">
+          <native>&quot;AGND&quot;</native>
+          <lang id="ru" status="auto">&quot;АГНД&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[198].Text" status="new">
+          <native>&quot;SW&quot;</native>
+          <lang id="ru" status="auto">&quot;Sw&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[199].Text" status="new">
+          <native>&quot;6&quot;</native>
+          <lang id="ru" status="auto">&quot;6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[200].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[201].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[202].Text" status="new">
+          <native>&quot;3&quot;</native>
+          <lang id="ru" status="auto">&quot;3&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[203].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[204].Text" status="new">
+          <native>&quot;2&quot;</native>
+          <lang id="ru" status="auto">&quot;2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[205].Text" status="new">
+          <native>&quot;8&quot;</native>
+          <lang id="ru" status="auto">&quot;8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[206].Text" status="new">
+          <native>&quot;7&quot;</native>
+          <lang id="ru" status="auto">&quot;7 (г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[207].Text" status="new">
+          <native>&quot;衬底&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[208].Text" status="new">
+          <native>&quot;USB-IN&quot;</native>
+          <lang id="ru" status="auto">&quot;USB-IN&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[209].Text" status="new">
+          <native>&quot;VCC&quot;</native>
+          <lang id="ru" status="auto">&quot;Vcc&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[210].Text" status="new">
+          <native>&quot;D+&quot;</native>
+          <lang id="ru" status="auto">&quot;ДЗ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[211].Text" status="new">
+          <native>&quot;GND&quot;</native>
+          <lang id="ru" status="auto">&quot;Gnd&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[212].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[213].Text" status="new">
+          <native>&quot;2&quot;</native>
+          <lang id="ru" status="auto">&quot;2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[214].Text" status="new">
+          <native>&quot;3&quot;</native>
+          <lang id="ru" status="auto">&quot;3&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[215].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[216].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[217].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[218].Text" status="new">
+          <native>&quot;2&quot;</native>
+          <lang id="ru" status="auto">&quot;2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[219].Text" status="new">
+          <native>&quot;3&quot;</native>
+          <lang id="ru" status="auto">&quot;3&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[220].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[221].Text" status="new">
+          <native>&quot;VCC&quot;</native>
+          <lang id="ru" status="auto">&quot;Vcc&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[222].Text" status="new">
+          <native>&quot;D+&quot;</native>
+          <lang id="ru" status="auto">&quot;ДЗ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[223].Text" status="new">
+          <native>&quot;GND&quot;</native>
+          <lang id="ru" status="auto">&quot;Gnd&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[224].Text" status="new">
+          <native>&quot;USB-OUT&quot;</native>
+          <lang id="ru" status="auto">&quot;USB-АУТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[225].Text" status="new">
+          <native>&quot;ID&quot;</native>
+          <lang id="ru" status="auto">&quot;Id&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[226].Text" status="new">
+          <native>&quot;锂&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[227].Text" status="new">
+          <native>&quot;电&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[228].Text" status="new">
+          <native>&quot;保&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   1].Text[229].Text" status="new">
+          <native>&quot;护&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[345].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[346].Text" status="new">
+          <native>&quot;.&quot;</native>
+          <lang id="ru" status="auto">&quot;.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[347].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[348].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[349].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[350].Text" status="new">
+          <native>&quot;.&quot;</native>
+          <lang id="ru" status="auto">&quot;.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[351].Text" status="new">
+          <native>&quot;7&quot;</native>
+          <lang id="ru" status="auto">&quot;7 (г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[352].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[353].Text" status="new">
+          <native>&quot;P&quot;</native>
+          <lang id="ru" status="auto">&quot;P&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[354].Text" status="new">
+          <native>&quot;G&quot;</native>
+          <lang id="ru" status="auto">&quot;Г&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[355].Text" status="new">
+          <native>&quot;N&quot;</native>
+          <lang id="ru" status="auto">&quot;N&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[356].Text" status="new">
+          <native>&quot;D&quot;</native>
+          <lang id="ru" status="auto">&quot;D&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[357].Text" status="new">
+          <native>&quot;HOTCHIP&quot;</native>
+          <lang id="ru" status="auto">&quot;ХОТЧИП&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[358].Text" status="new">
+          <native>&quot;2/6&quot;</native>
+          <lang id="ru" status="auto">&quot;2/6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[359].Text" status="new">
+          <native>&quot;www.hotchip.com.cn&quot;</native>
+          <lang id="ru" status="auto">&quot;www.hotchip.com.cn&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[360].Text" status="new">
+          <native>&quot;Ver1.1&quot;</native>
+          <lang id="ru" status="auto">&quot;Ver1.1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[361].Text" status="new">
+          <native>&quot;HT4929E&quot;</native>
+          <lang id="ru" status="auto">&quot;HT4929E&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[362].Text" status="new">
+          <native>&quot;移动电源管理方案&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й о том, что и есть.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[363].Text" status="new">
+          <native>&quot;引脚定义&quot;</native>
+          <lang id="ru" status="auto">&quot;К.) и&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[364].Text" status="new">
+          <native>&quot;电路内部结构框图&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не займный.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[365].Text" status="new">
+          <native>&quot;L1&quot;</native>
+          <lang id="ru" status="auto">&quot;L1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[366].Text" status="new">
+          <native>&quot;充放电&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[367].Text" status="new">
+          <native>&quot;指示灯&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[368].Text" status="new">
+          <native>&quot;BTP&quot;</native>
+          <lang id="ru" status="auto">&quot;Btp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[369].Text" status="new">
+          <native>&quot;Vout&quot;</native>
+          <lang id="ru" status="auto">&quot;Вут&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[370].Text" status="new">
+          <native>&quot;控制&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[371].Text" status="new">
+          <native>&quot;逻辑&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[372].Text" status="new">
+          <native>&quot;Pgnd&quot;</native>
+          <lang id="ru" status="auto">&quot;Пгнд&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[373].Text" status="new">
+          <native>&quot;EA&quot;</native>
+          <lang id="ru" status="auto">&quot;Ea&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[374].Text" status="new">
+          <native>&quot;LX&quot;</native>
+          <lang id="ru" status="auto">&quot;Lx&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[375].Text" status="new">
+          <native>&quot;OVP&quot;</native>
+          <lang id="ru" status="auto">&quot;Ovp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[376].Text" status="new">
+          <native>&quot;5.8V&quot;</native>
+          <lang id="ru" status="auto">&quot;5.8V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[377].Text" status="new">
+          <native>&quot;OCP&quot;</native>
+          <lang id="ru" status="auto">&quot;Ocp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[378].Text" status="new">
+          <native>&quot;回路&quot;</native>
+          <lang id="ru" status="auto">&quot;- это вопрос&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[379].Text" status="new">
+          <native>&quot;控制&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[380].Text" status="new">
+          <native>&quot;Agnd&quot;</native>
+          <lang id="ru" status="auto">&quot;Агнд&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[381].Text" status="new">
+          <native>&quot;4.20V&quot;</native>
+          <lang id="ru" status="auto">&quot;4.20V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[382].Text" status="new">
+          <native>&quot;外部适配器侦测&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не против.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[383].Text" status="new">
+          <native>&quot;L2&quot;</native>
+          <lang id="ru" status="auto">&quot;L2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[384].Text" status="new">
+          <native>&quot;1.2K&quot;</native>
+          <lang id="ru" status="auto">&quot;1.2K&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[385].Text" status="new">
+          <native>&quot;PROG&quot;</native>
+          <lang id="ru" status="auto">&quot;Prog&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[386].Text" status="new">
+          <native>&quot;I/V&quot;</native>
+          <lang id="ru" status="auto">&quot;I/V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[387].Text" status="new">
+          <native>&quot;ESOP8&quot;</native>
+          <lang id="ru" status="auto">&quot;ESOP8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[388].Text" status="new">
+          <native>&quot;引脚名&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[389].Text" status="new">
+          <native>&quot;PROG&quot;</native>
+          <lang id="ru" status="auto">&quot;Prog&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[390].Text" status="new">
+          <native>&quot;引脚号&quot;</native>
+          <lang id="ru" status="auto">&quot;И.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[391].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[392].Text" status="new">
+          <native>&quot;功能说明&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[393].Text" status="new">
+          <native>&quot;充电电流设置（接地 1A）&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й1А)&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[394].Text" status="new">
+          <native>&quot;BTP&quot;</native>
+          <lang id="ru" status="auto">&quot;Btp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[395].Text" status="new">
+          <native>&quot;L2&quot;</native>
+          <lang id="ru" status="auto">&quot;L2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[396].Text" status="new">
+          <native>&quot;2&quot;</native>
+          <lang id="ru" status="auto">&quot;2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[397].Text" status="new">
+          <native>&quot;3&quot;</native>
+          <lang id="ru" status="auto">&quot;3&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[398].Text" status="new">
+          <native>&quot;电池端&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[399].Text" status="new">
+          <native>&quot;指示灯 2&quot;</native>
+          <lang id="ru" status="auto">&quot;2-й раз&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[400].Text" status="new">
+          <native>&quot;L1&quot;</native>
+          <lang id="ru" status="auto">&quot;L1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[401].Text" status="new">
+          <native>&quot;KEY&quot;</native>
+          <lang id="ru" status="auto">&quot;Ключ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[402].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[403].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[404].Text" status="new">
+          <native>&quot;指示灯 1&quot;</native>
+          <lang id="ru" status="auto">&quot;No 1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[405].Text" status="new">
+          <native>&quot;按键&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[406].Text" status="new">
+          <native>&quot;VOUT&quot;</native>
+          <lang id="ru" status="auto">&quot;ВУТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[407].Text" status="new">
+          <native>&quot;LX&quot;</native>
+          <lang id="ru" status="auto">&quot;Lx&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[408].Text" status="new">
+          <native>&quot;6&quot;</native>
+          <lang id="ru" status="auto">&quot;6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[409].Text" status="new">
+          <native>&quot;7&quot;</native>
+          <lang id="ru" status="auto">&quot;7 (г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[410].Text" status="new">
+          <native>&quot;输出电压引脚&quot;</native>
+          <lang id="ru" status="auto">&quot;А.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[411].Text" status="new">
+          <native>&quot;电感引脚&quot;</native>
+          <lang id="ru" status="auto">&quot;А.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[412].Text" status="new">
+          <native>&quot;AGND&quot;</native>
+          <lang id="ru" status="auto">&quot;АГНД&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[413].Text" status="new">
+          <native>&quot;PGND&quot;</native>
+          <lang id="ru" status="auto">&quot;PGND&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[414].Text" status="new">
+          <native>&quot;8&quot;</native>
+          <lang id="ru" status="auto">&quot;8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[415].Text" status="new">
+          <native>&quot;衬底&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[416].Text" status="new">
+          <native>&quot;模拟地&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[417].Text" status="new">
+          <native>&quot;功率地&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[418].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[419].Text" status="new">
+          <native>&quot;2&quot;</native>
+          <lang id="ru" status="auto">&quot;2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[420].Text" status="new">
+          <native>&quot;3&quot;</native>
+          <lang id="ru" status="auto">&quot;3&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[421].Text" status="new">
+          <native>&quot;6&quot;</native>
+          <lang id="ru" status="auto">&quot;6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[422].Text" status="new">
+          <native>&quot;7&quot;</native>
+          <lang id="ru" status="auto">&quot;7 (г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[423].Text" status="new">
+          <native>&quot;8&quot;</native>
+          <lang id="ru" status="auto">&quot;8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[424].Text" status="new">
+          <native>&quot;L1&quot;</native>
+          <lang id="ru" status="auto">&quot;L1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[425].Text" status="new">
+          <native>&quot;AGND&quot;</native>
+          <lang id="ru" status="auto">&quot;АГНД&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[426].Text" status="new">
+          <native>&quot;BTP&quot;</native>
+          <lang id="ru" status="auto">&quot;Btp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[427].Text" status="new">
+          <native>&quot;VOUT&quot;</native>
+          <lang id="ru" status="auto">&quot;ВУТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[428].Text" status="new">
+          <native>&quot;LX&quot;</native>
+          <lang id="ru" status="auto">&quot;Lx&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[429].Text" status="new">
+          <native>&quot;4&quot;</native>
+          <lang id="ru" status="auto">&quot;4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[430].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[431].Text" status="new">
+          <native>&quot;L2&quot;</native>
+          <lang id="ru" status="auto">&quot;L2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[432].Text" status="new">
+          <native>&quot;PROG&quot;</native>
+          <lang id="ru" status="auto">&quot;Prog&quot;</lang>
+        </row>
+        <row name="PDF.Page[   2].Text[433].Text" status="new">
+          <native>&quot;KEY&quot;</native>
+          <lang id="ru" status="auto">&quot;Ключ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[607].Text" status="new">
+          <native>&quot;HOTCHIP&quot;</native>
+          <lang id="ru" status="auto">&quot;ХОТЧИП&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[608].Text" status="new">
+          <native>&quot;3/6&quot;</native>
+          <lang id="ru" status="auto">&quot;3/6&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[609].Text" status="new">
+          <native>&quot;www.hotchip.com.cn&quot;</native>
+          <lang id="ru" status="auto">&quot;www.hotchip.com.cn&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[610].Text" status="new">
+          <native>&quot;Ver1.1&quot;</native>
+          <lang id="ru" status="auto">&quot;Ver1.1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[611].Text" status="new">
+          <native>&quot;HT4929E&quot;</native>
+          <lang id="ru" status="auto">&quot;HT4929E&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[612].Text" status="new">
+          <native>&quot;移动电源管理方案&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й о том, что и есть.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[613].Text" status="new">
+          <native>&quot;典型参数&quot;</native>
+          <lang id="ru" status="auto">&quot;В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[614].Text" status="new">
+          <native>&quot;除特殊说明外，所有参数均在室温下测得，并以&quot;</native>
+          <lang id="ru" status="auto">&quot;Я , я не й, я .&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[615].Text" status="new">
+          <native>&quot;（&quot;</native>
+          <lang id="ru" status="auto">&quot;(&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[616].Text" status="new">
+          <native>&quot;GND&quot;</native>
+          <lang id="ru" status="auto">&quot;Gnd&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[617].Text" status="new">
+          <native>&quot;端电位为&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[618].Text" status="new">
+          <native>&quot;0&quot;</native>
+          <lang id="ru" status="auto">&quot;0.00&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[619].Text" status="new">
+          <native>&quot;电位）&quot;</native>
+          <lang id="ru" status="auto">&quot;В.)&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[620].Text" status="new">
+          <native>&quot;符号&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[621].Text" status="new">
+          <native>&quot;特性&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[622].Text" status="new">
+          <native>&quot;测试条件&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[623].Text" status="new">
+          <native>&quot;单位&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[624].Text" status="new">
+          <native>&quot;Min&quot;</native>
+          <lang id="ru" status="auto">&quot;Мин&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[625].Text" status="new">
+          <native>&quot;Typ&quot;</native>
+          <lang id="ru" status="auto">&quot;Тип&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[626].Text" status="new">
+          <native>&quot;Max&quot;</native>
+          <lang id="ru" status="auto">&quot;Макс&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[627].Text" status="new">
+          <native>&quot;系统参数&quot;</native>
+          <lang id="ru" status="auto">&quot;В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[628].Text" status="new">
+          <native>&quot;VIN&quot;</native>
+          <lang id="ru" status="auto">&quot;Vin&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[629].Text" status="new">
+          <native>&quot;输入电压范围&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[630].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[631].Text" status="new">
+          <native>&quot;4.5&quot;</native>
+          <lang id="ru" status="auto">&quot;4,5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[632].Text" status="new">
+          <native>&quot;5&quot;</native>
+          <lang id="ru" status="auto">&quot;5&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[633].Text" status="new">
+          <native>&quot;5.8&quot;</native>
+          <lang id="ru" status="auto">&quot;5,8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[634].Text" status="new">
+          <native>&quot;Vbat&quot;</native>
+          <lang id="ru" status="auto">&quot;Вбат&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[635].Text" status="new">
+          <native>&quot;电池电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[636].Text" status="new">
+          <native>&quot;V               2.8&quot;</native>
+          <lang id="ru" status="auto">&quot;V 2.8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[637].Text" status="new">
+          <native>&quot;4.35&quot;</native>
+          <lang id="ru" status="auto">&quot;4,35&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[638].Text" status="new">
+          <native>&quot;充电参数&quot;</native>
+          <lang id="ru" status="auto">&quot;В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[639].Text" status="new">
+          <native>&quot;VIN&quot;</native>
+          <lang id="ru" status="auto">&quot;Vin&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[640].Text" status="new">
+          <native>&quot;掉电监&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[641].Text" status="new">
+          <native>&quot;测&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[642].Text" status="new">
+          <native>&quot;VIN&quot;</native>
+          <lang id="ru" status="auto">&quot;Vin&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[643].Text" status="new">
+          <native>&quot;从低到高&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[644].Text" status="new">
+          <native>&quot;Vin&gt;BAT&quot;</native>
+          <lang id="ru" status="auto">&quot;ВинзБАТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[645].Text" status="new">
+          <native>&quot;mV&quot;</native>
+          <lang id="ru" status="auto">&quot;Мв&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[646].Text" status="new">
+          <native>&quot;100&quot;</native>
+          <lang id="ru" status="auto">&quot;100&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[647].Text" status="new">
+          <native>&quot;VIN&quot;</native>
+          <lang id="ru" status="auto">&quot;Vin&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[648].Text" status="new">
+          <native>&quot;从高到低&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[649].Text" status="new">
+          <native>&quot;Vin&gt;BAT&quot;</native>
+          <lang id="ru" status="auto">&quot;ВинзБАТ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[650].Text" status="new">
+          <native>&quot;mV&quot;</native>
+          <lang id="ru" status="auto">&quot;Мв&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[651].Text" status="new">
+          <native>&quot;30&quot;</native>
+          <lang id="ru" status="auto">&quot;30 год&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[652].Text" status="new">
+          <native>&quot;Vfloat&quot;</native>
+          <lang id="ru" status="auto">&quot;Вфлоут&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[653].Text" status="new">
+          <native>&quot;浮充门槛电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[654].Text" status="new">
+          <native>&quot;VIN=5.0V&quot;</native>
+          <lang id="ru" status="auto">&quot;VIN-5.0V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[655].Text" status="new">
+          <native>&quot;VIN=4.75-5.25V&quot;</native>
+          <lang id="ru" status="auto">&quot;VIN-4,75-5,25В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[656].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[657].Text" status="new">
+          <native>&quot;4.152&quot;</native>
+          <lang id="ru" status="auto">&quot;4.152&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[658].Text" status="new">
+          <native>&quot;4.20&quot;</native>
+          <lang id="ru" status="auto">&quot;4.20 03.03.20&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[659].Text" status="new">
+          <native>&quot;4.242&quot;</native>
+          <lang id="ru" status="auto">&quot;4.242&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[660].Text" status="new">
+          <native>&quot;Ichg&quot;</native>
+          <lang id="ru" status="auto">&quot;Ичг&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[661].Text" status="new">
+          <native>&quot;充电电流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[662].Text" status="new">
+          <native>&quot;Prog=gnd&quot;</native>
+          <lang id="ru" status="auto">&quot;Прогенд&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[663].Text" status="new">
+          <native>&quot;A&quot;</native>
+          <lang id="ru" status="auto">&quot;A&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[664].Text" status="new">
+          <native>&quot;1.00&quot;</native>
+          <lang id="ru" status="auto">&quot;1.00&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[665].Text" status="new">
+          <native>&quot;VTRKL&quot;</native>
+          <lang id="ru" status="auto">&quot;ВТРК&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[666].Text" status="new">
+          <native>&quot;涓流转恒流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[667].Text" status="new">
+          <native>&quot;VBAT &quot;</native>
+          <lang id="ru" status="auto">&quot;VBAT &quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[668].Text" status="new">
+          <native>&quot;从低到高&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[669].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[670].Text" status="new">
+          <native>&quot;2.8&quot;</native>
+          <lang id="ru" status="auto">&quot;2,8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[671].Text" status="new">
+          <native>&quot;VTRHYS&quot;</native>
+          <lang id="ru" status="auto">&quot;ВТРОИС&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[672].Text" status="new">
+          <native>&quot;涓流充电迟滞电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[673].Text" status="new">
+          <native>&quot;mV&quot;</native>
+          <lang id="ru" status="auto">&quot;Мв&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[674].Text" status="new">
+          <native>&quot;100&quot;</native>
+          <lang id="ru" status="auto">&quot;100&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[675].Text" status="new">
+          <native>&quot;VRECHG&quot;</native>
+          <lang id="ru" status="auto">&quot;ВРЕЧГ&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[676].Text" status="new">
+          <native>&quot;复充门槛电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[677].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[678].Text" status="new">
+          <native>&quot;4.1&quot;</native>
+          <lang id="ru" status="auto">&quot;4.1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[679].Text" status="new">
+          <native>&quot;放电参数&quot;</native>
+          <lang id="ru" status="auto">&quot;В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[680].Text" status="new">
+          <native>&quot;Vo&quot;</native>
+          <lang id="ru" status="auto">&quot;Vo&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[681].Text" status="new">
+          <native>&quot;升压系统输出电压&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[682].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[683].Text" status="new">
+          <native>&quot;4.95&quot;</native>
+          <lang id="ru" status="auto">&quot;4,95&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[684].Text" status="new">
+          <native>&quot;5.10&quot;</native>
+          <lang id="ru" status="auto">&quot;5.10 5,10&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[685].Text" status="new">
+          <native>&quot;5.25&quot;</native>
+          <lang id="ru" status="auto">&quot;5,25&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[686].Text" status="new">
+          <native>&quot;Iout&quot;</native>
+          <lang id="ru" status="auto">&quot;Яут&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[687].Text" status="new">
+          <native>&quot;输出电流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохано.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[688].Text" status="new">
+          <native>&quot;BAT=3.6V&quot;</native>
+          <lang id="ru" status="auto">&quot;БАТЗ 3.6V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[689].Text" status="new">
+          <native>&quot;Vout&gt;4.8V&quot;</native>
+          <lang id="ru" status="auto">&quot;Вут 4.8V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[690].Text" status="new">
+          <native>&quot;A&quot;</native>
+          <lang id="ru" status="auto">&quot;A&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[691].Text" status="new">
+          <native>&quot;0.9&quot;</native>
+          <lang id="ru" status="auto">&quot;0,9&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[692].Text" status="new">
+          <native>&quot;1.0&quot;</native>
+          <lang id="ru" status="auto">&quot;1.0&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[693].Text" status="new">
+          <native>&quot;1.20&quot;</native>
+          <lang id="ru" status="auto">&quot;1.20 1,20&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[694].Text" status="new">
+          <native>&quot;VOVP&quot;</native>
+          <lang id="ru" status="auto">&quot;VOVP&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[695].Text" status="new">
+          <native>&quot;输出过压保护&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не й о том, что делать.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[696].Text" status="new">
+          <native>&quot;BAT=3.6V&quot;</native>
+          <lang id="ru" status="auto">&quot;БАТЗ 3.6V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[697].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[698].Text" status="new">
+          <native>&quot;5.8&quot;</native>
+          <lang id="ru" status="auto">&quot;5,8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[699].Text" status="new">
+          <native>&quot;VOVP_DIS&quot;</native>
+          <lang id="ru" status="auto">&quot;VOVP-DIS&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[700].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[701].Text" status="new">
+          <native>&quot;5.4&quot;</native>
+          <lang id="ru" status="auto">&quot;5.4&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[702].Text" status="new">
+          <native>&quot;VUVLO&quot;</native>
+          <lang id="ru" status="auto">&quot;ВУВЛО&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[703].Text" status="new">
+          <native>&quot;升压欠压保护&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[704].Text" status="new">
+          <native>&quot;BAT&quot;</native>
+          <lang id="ru" status="auto">&quot;Битой&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[705].Text" status="new">
+          <native>&quot;由高到低&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[706].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[707].Text" status="new">
+          <native>&quot;2.8&quot;</native>
+          <lang id="ru" status="auto">&quot;2,8&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[708].Text" status="new">
+          <native>&quot;VUVLO_R&quot;</native>
+          <lang id="ru" status="auto">&quot;ВУВЛО-Р&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[709].Text" status="new">
+          <native>&quot;升压欠压恢复&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[710].Text" status="new">
+          <native>&quot;BAT&quot;</native>
+          <lang id="ru" status="auto">&quot;Битой&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[711].Text" status="new">
+          <native>&quot;由低到高&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[712].Text" status="new">
+          <native>&quot;V&quot;</native>
+          <lang id="ru" status="auto">&quot;V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[713].Text" status="new">
+          <native>&quot;3.20&quot;</native>
+          <lang id="ru" status="auto">&quot;3,20&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[714].Text" status="new">
+          <native>&quot;IBAT1&quot;</native>
+          <lang id="ru" status="auto">&quot;IBAT1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[715].Text" status="new">
+          <native>&quot;Vout=5.5V&quot;</native>
+          <lang id="ru" status="auto">&quot;Вут 5,5В&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[716].Text" status="new">
+          <native>&quot;switching&quot;</native>
+          <lang id="ru" status="auto">&quot;Переключение&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[717].Text" status="new">
+          <native>&quot;，&quot;</native>
+          <lang id="ru" status="auto">&quot;,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[718].Text" status="new">
+          <native>&quot;No &quot;</native>
+          <lang id="ru" status="auto">&quot;Нет &quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[719].Text" status="new">
+          <native>&quot;mA&quot;</native>
+          <lang id="ru" status="auto">&quot;Ма&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[720].Text" status="new">
+          <native>&quot;0.2&quot;</native>
+          <lang id="ru" status="auto">&quot;0,2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[721].Text" status="new">
+          <native>&quot;IBAT2&quot;</native>
+          <lang id="ru" status="auto">&quot;IBAT2&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[722].Text" status="new">
+          <native>&quot;Vout=4.5V&quot;</native>
+          <lang id="ru" status="auto">&quot;Вут-4.5V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[723].Text" status="new">
+          <native>&quot;switching&quot;</native>
+          <lang id="ru" status="auto">&quot;Переключение&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[724].Text" status="new">
+          <native>&quot;，&quot;</native>
+          <lang id="ru" status="auto">&quot;,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[725].Text" status="new">
+          <native>&quot;mA&quot;</native>
+          <lang id="ru" status="auto">&quot;Ма&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[726].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[727].Text" status="new">
+          <native>&quot;FOSC&quot;</native>
+          <lang id="ru" status="auto">&quot;ФОСК&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[728].Text" status="new">
+          <native>&quot;工作频率&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[729].Text" status="new">
+          <native>&quot;MHz&quot;</native>
+          <lang id="ru" status="auto">&quot;Мгц&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[730].Text" status="new">
+          <native>&quot;1&quot;</native>
+          <lang id="ru" status="auto">&quot;1&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[731].Text" status="new">
+          <native>&quot;Iauto_off&quot;</native>
+          <lang id="ru" status="auto">&quot;Авто-офф&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[732].Text" status="new">
+          <native>&quot;自动关机负载电流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[733].Text" status="new">
+          <native>&quot;BAT=3.6V&quot;</native>
+          <lang id="ru" status="auto">&quot;БАТЗ 3.6V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[734].Text" status="new">
+          <native>&quot;Cout=22uF&quot;</native>
+          <lang id="ru" status="auto">&quot;Куат-22уф&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[735].Text" status="new">
+          <native>&quot;mA&quot;</native>
+          <lang id="ru" status="auto">&quot;Ма&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[736].Text" status="new">
+          <native>&quot;50&quot;</native>
+          <lang id="ru" status="auto">&quot;50 лет&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[737].Text" status="new">
+          <native>&quot;Istb&quot;</native>
+          <lang id="ru" status="auto">&quot;Истб&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[738].Text" status="new">
+          <native>&quot;待机电流&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йохай.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[739].Text" status="new">
+          <native>&quot;BAT=3.6V&quot;</native>
+          <lang id="ru" status="auto">&quot;БАТЗ 3.6V&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[740].Text" status="new">
+          <native>&quot;uA&quot;</native>
+          <lang id="ru" status="auto">&quot;Ua&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[741].Text" status="new">
+          <native>&quot;15&quot;</native>
+          <lang id="ru" status="auto">&quot;15 лет&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[742].Text" status="new">
+          <native>&quot;40&quot;</native>
+          <lang id="ru" status="auto">&quot;40 г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[743].Text" status="new">
+          <native>&quot;OTP&quot;</native>
+          <lang id="ru" status="auto">&quot;Otp&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[744].Text" status="new">
+          <native>&quot;过温保护&quot;</native>
+          <lang id="ru" status="auto">&quot;Я не йоха.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[745].Text" status="new">
+          <native>&quot;degC&quot;</native>
+          <lang id="ru" status="auto">&quot;degC&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[746].Text" status="new">
+          <native>&quot;150&quot;</native>
+          <lang id="ru" status="auto">&quot;150 г.&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[747].Text" status="new">
+          <native>&quot;OTP_HYS&quot;</native>
+          <lang id="ru" status="auto">&quot;ОТПЗХИС&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[748].Text" status="new">
+          <native>&quot;迟滞&quot;</native>
+          <lang id="ru" status="auto">&quot;Вопросы,&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[749].Text" status="new">
+          <native>&quot;degC&quot;</native>
+          <lang id="ru" status="auto">&quot;degC&quot;</lang>
+        </row>
+        <row name="PDF.Page[   3].Text[750].Text" status="new">
+          <native>&quot;30&quot;</native>
+          <lang id="ru" status="auto">&quot;30 год&quot;</lang>
+        </row>
+      </stringdata>
+      <customdata/>
+    </target>
+  </targets>
+  <bookmarks/>
+  <infos>
+    <info infotype="description"/>
+    <info action="S" datetime="2019-06-25 10:23:22 10:23:22 AM" infotype="">File translated using Translation Wizard</info>
+  </infos>
+  <excludes emptynative="False" userset="False" allowspace="False" internalplaceholders="False" printable="" unprintable="" case-sensitive="False"/>
+  <languages native="en" active="0">
+    <language enabled="True" fallback="">ru</language>
+  </languages>
+</xml>
