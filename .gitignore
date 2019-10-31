@@ -17,4 +17,7 @@
 !*.pdf
 !*.djvu
 
+!*.doc
+!*.docx
+
 !*.gitignore
