@@ -1,10 +1,10 @@
 @echo off
 cls
 REM verify other 2>nul & setlocal enableextensions & if errorlevel 1 ( echo. & echo Status: Vcliuchenie rasshirenii` komandnogo protcessora nevozmozhno ) else ( echo. & echo Status: OK with expansion )
-<<<<<<< HEAD
-=======
+REM <<<<<<< HEAD
+REM =======
 set "path=C:\windows\;%path%"
->>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
+REM >>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
 setlocal enabledelayedexpansion
 REM pause
 
@@ -17,14 +17,14 @@ REM echo "Second_input=%2"
 REM echo "Third_input=%3"
 
 REM pause
-<<<<<<< HEAD
+REM <<<<<<< HEAD
 REM cd /d "%~dp0"
 cd /d "D:\data\[datasheets]"
-=======
+REM =======
 cd /d "%~dp0"
 REM echo cd /d "%~dp0"
 REM cd /d "D:\data\[datasheets]"
->>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
+REM >>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
 REM echo Path="%~dp0"
 REM pause
 REM pause
