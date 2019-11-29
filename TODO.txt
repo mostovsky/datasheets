@@ -1,0 +1,21 @@
+TODO
+
+* rename for 100mA -> to 0.1A
+
+* menu to open needed element of all
++= * use for menu command "export list to file %data%_%time%_search_result_for_%search_string%_.txt"
+
+* show size of file
+
+* width of window -> static
++= * use colours
++= * use visible as table
+
+* search with commands like this: "vt,A3,N,V15" means we need to find VT ("vt") with current more than 3 Ampere ("A3"), type of element is low side ("N") and Voltage not smaller than 15 ("V")
++= * if some parameter not use - means ANY
++= * a lot of string parameters: "A" - current, "V" - voltage, "Ap" - peak current, "t" - turn-on time, ""
++= * any format search: 0.1A = 100mA = A0.1 = A100mA
+
+* command for export list (or formatting print) to use with external app (like base or another)
+* print at 1-st line command-parameter of founded elements
+* 
