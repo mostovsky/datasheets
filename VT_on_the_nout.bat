@@ -62,6 +62,7 @@ if defined COND (
 		REM pause
 		TITLE="mode=inputing"
 		echo Input component to find
+		echo Press ENTER to see results of previous search
 		set /P to_find=
 	) else (
 		TITLE="mode=finding"
@@ -80,10 +81,17 @@ echo.
 
 REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%"') do (
 REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /v ".rar"') do (
+Setlocal EnableDelayedExpansion
+set CN=0
 for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /v ".rar" ^| find /v ".lnk"') do (
 	REM echo. & rem echo.
-	echo Founded "%%i" && rem for both cases
 	REM echo.
+	
+	set /a CN=1+!CN!
+	echo [!CN!] Founded "%%i" && rem for both cases	
+	set "temp_!CN!=%%i"
+		REM echo set "temp_!CN!=%%i"
+	
 	set "asd=%%i"
 	REM call echo ren "%%asd%%" "%%asd:%to_find%=%to_replace%%%"
 
@@ -119,7 +127,13 @@ if "%nothing%"=="true" (
 	goto :END
 ) else (
 	REM ECHO Start last pdf if "enter" or another input to abort
+	
+		echo.
+		echo Input "new" to new search
+		goto input
+		
 	ECHO Start last file if "enter" or another input to abort
+
 	set /p IsStart=
 	REM echo IsStart=%IsStart%
 	REM echo IsStart=!IsStart!
@@ -129,6 +143,36 @@ if "%nothing%"=="true" (
 	REM PAUSE
 	goto :END
 )
+
+
+:input
+set input=0
+set /p "input= Select: "
+set input=%input: =%
+REM if "%input%"=="" ( echo Starting last file && start "" "%asd%" )
+echo "%input%" | find /i "new" > nul
+if "%errorlevel%"=="0" ( echo New search now && goto END )
+if %input% GEQ 1 (
+REM if %input% LEQ %CN% exit /b %input%
+	if %input% LEQ %CN% (
+		call start "" "%%temp_%input%%%"
+		REM goto :END
+		goto input
+	) else (
+		rem bigger than maximum
+		echo Open Last
+		call start "" "%%temp_%CN%%%"
+		REM goto :END
+		goto input
+	)
+) else (
+	rem zero
+	echo open first
+	call start "" "%%temp_1%%"
+)
+echo Error! Retry input. Input "new" to new search
+goto input
+
 
 :END
 REM echo END
