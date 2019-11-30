@@ -1,5 +1,7 @@
 TODO
 
+* any alfabet symbol - like "new"
+
 * rename for 100mA -> to 0.1A
 += * rename pnp -> to PNP
 
