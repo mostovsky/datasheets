@@ -1,6 +1,7 @@
 TODO
 
 * rename for 100mA -> to 0.1A
++= * rename pnp -> to PNP
 
 * menu to open needed element of all
 += * use for menu command "export list to file %data%_%time%_search_result_for_%search_string%_.txt"
