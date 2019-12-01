@@ -90,21 +90,26 @@ for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find%" /c') do (
 	)
 )
 
-REM if ("%nothing%"=="true")&&("%to_find%"!="") (
-REM REM make only if russian symbols
-	REM Call :_notranslit "%to_find%"
-	REM REM echo Result="!Result!"
-	REM REM pause
-	REM REM set "to_find_new=!Result!"
-	REM REM for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find_new%" /c') do (
-		REM REM if "%%i"=="0" (
-			REM REM echo. && echo Nothing_founded for "%to_find_new%" && set "nothing=true"
-		REM REM ) else (
-			REM REM echo. && set "nothing=false" && echo Something founded for "%to_find_new%" [%%i]
-			REM REM set "to_find=%to_find_new%"
+REM if ( ("%nothing%"=="true") && ("%to_find%"!="") ) (
+REM echo if "%to_find%"!="" (
+if not "%to_find%"=="" (
+	if "%nothing%"=="true" (
+		echo Need to change keyboard layout
+		REM REM make only if russian symbols
+		REM Call :_notranslit "%to_find%"
+		REM REM echo Result="!Result!"
+		REM REM pause
+		REM REM set "to_find_new=!Result!"
+		REM REM for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find_new%" /c') do (
+			REM REM if "%%i"=="0" (
+				REM REM echo. && echo Nothing_founded for "%to_find_new%" && set "nothing=true"
+			REM REM ) else (
+				REM REM echo. && set "nothing=false" && echo Something founded for "%to_find_new%" [%%i]
+				REM REM set "to_find=%to_find_new%"
+			REM REM )
 		REM REM )
-	REM REM )
-REM )
+	)
+)
 
 echo.
 
