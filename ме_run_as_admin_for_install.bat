@@ -31,7 +31,7 @@ if "!errorlevel!"=="1" (
 )
 
 echo start now
-REM pause
+pause
 REM "D:\[data]\[info]\[datasheets]\VT_on_the_nout.bat" %1 %2 %3 %4 %5 %6
 REM "D:\[data]\[info]\[datasheets]\VT_on_the_work.bat" %1 %2 %3 %4 %5 %6
 set "nout_path=D:\[data]\[info]\[datasheets]"
@@ -44,4 +44,11 @@ set "onthe_work_path=H:\data\[datasheets]"
 if exist "%onthe_work_path%\%VTBAT_filename%" (
 	echo Exist in "%onthe_work_path%"
 	start "" "%onthe_work_path%\%VTBAT_filename%" %1 %2 %3 %4 %5 %6
+)
+
+
+set "onthe_home_path=I:\Info\datasheets"
+if exist "%onthe_home_path%\%VTBAT_filename%" (
+	echo Exist in "%onthe_home_path%"
+	start "" "%onthe_home_path%\%VTBAT_filename%" %1 %2 %3 %4 %5 %6
 )
