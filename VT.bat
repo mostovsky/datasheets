@@ -28,6 +28,10 @@ REM cd /d "%~dp0"
 REM cd /d "D:\data\info\[datasheets]"
 REM =======
 cd /d "%~dp0"
+set me_dir=%~dp0
+call set me_dir=%me_dir:"=&REM%
+REM echo me_dir=%me_dir%
+REM cd /d "%me_dir,"=%"
 REM echo cd /d "%~dp0"
 REM cd /d "D:\data\[datasheets]"
 REM >>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
@@ -77,6 +81,12 @@ if defined COND (
 	)
 )
 REM ___________________________________________________________________________________________________
+
+if "%to_find%"=="dir" (
+	REM start "" "explorer.exe %~dp0"
+	start "" "explorer.exe" "%me_dir%"
+)
+
 REM echo.
 REM echo. && echo.
 REM echo to_find="%to_find%"
