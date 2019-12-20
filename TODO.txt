@@ -2,6 +2,8 @@ TODO
 
 * when search use for "7815" file with "78XX"
 
+* invers translate test for when eng write, but search rus (if count result is zero)
+
 * any alfabet symbol - like "new"
 
 * need Translit FIX
