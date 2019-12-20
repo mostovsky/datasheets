@@ -1,5 +1,7 @@
 TODO
 
+* when search use for "7815" file with "78XX"
+
 * any alfabet symbol - like "new"
 
 * need Translit FIX
