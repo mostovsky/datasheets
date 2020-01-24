@@ -1,5 +1,7 @@
 TODO
 
+* "mega16" must first open ATmega16, not mega168
+
 * real-time search (with auto-fix mistake)
 
 * when search use for "7815" file with "78XX"
