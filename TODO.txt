@@ -1,5 +1,7 @@
 TODO
 
+* add if serch in path open as dir if "dir" was added in ask
+
 * in internet search use only english-letters
 
 * "mega16" must first open ATmega16, not mega168
