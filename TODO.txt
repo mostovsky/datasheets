@@ -1,5 +1,7 @@
 TODO
 
+* add forced search by word "search" or "find"
+
 * add if serch in path open as dir if "dir" was added in ask
 
 * in internet search use only english-letters
