@@ -178,7 +178,8 @@ if "%nothing%"=="true" (
 		REM pause
 		REM if "%IsStart%"=="" start "" "chrome.exe" "https://www.google.com/search?q=%to_find% pdf"
 		REM if "!IsStart!"=="" start "" "chrome.exe" "https://www.google.com/search?q=%to_find% pdf"
-		if "!IsStart!"=="" start "" "chrome.exe" "https://datasheetspdf.com/datasheet/search.php?sWord=%to_find%"
+		if "!IsStart!"=="" start "" "chrome.exe" "https://www.chipfind.ru/datasheet/search.htm?s=%to_find%"
+		REM if "!IsStart!"=="" start "" "chrome.exe" "https://datasheetspdf.com/datasheet/search.php?sWord=%to_find%"
 		REM PAUSE
 	)
 	goto :END
