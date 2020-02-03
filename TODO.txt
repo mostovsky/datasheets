@@ -1,5 +1,9 @@
 TODO
 
+* 
+
+* cannot start in command to multiple search (can't use "| find /i %sometext%") - it's bad
+
 * add forced search by word "search" or "find"
 
 * add if serch in path open as dir if "dir" was added in ask
