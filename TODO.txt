@@ -2,6 +2,8 @@ TODO
 
 * 
 
+* add "all" for open all founded items
+
 * cannot start in command to multiple search (can't use "| find /i %sometext%") - it's bad
 
 * add forced search by word "search" or "find"
