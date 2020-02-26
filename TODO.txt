@@ -46,3 +46,12 @@ TODO
 * print at 1-st line command-parameter of founded elements
 * 
 _see also TODO inside VT.bat
+_____________________________________________________
+links:
+* http://www.5v.ru/ds/trnz
+* https://rudatasheet.ru/transistors/kt503/
+* 
+* 
+* 
+* 
+* 
