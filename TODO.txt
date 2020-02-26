@@ -1,6 +1,7 @@
 TODO
 
-* 
+* duplicate delete
++* true rename: if exist prev file with wrong name - bad
 
 * add "all" for open all founded items
 
