@@ -1,5 +1,9 @@
 TODO
 
+* 
+
+* direct web-link to open local search
+
 * duplicate delete
 +* true rename: if exist prev file with wrong name - bad
 
