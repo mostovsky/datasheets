@@ -2,6 +2,8 @@ TODO
 
 * 
 
+* for search: https://www.rlocman.ru/datasheet/search.html?q=
+
 * direct web-link to open local search
 
 * duplicate delete
