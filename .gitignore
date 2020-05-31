@@ -20,6 +20,8 @@
 !*.doc
 !*.docx
 
+!Stab_design_1_2.exe
+
 #I don't know what is it.
 !*.m7p
 
