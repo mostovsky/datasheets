@@ -13,12 +13,16 @@
 !*.jpg
 !*.png
 !*.gif
+!*.webp
 
 !*.pdf
 !*.djvu
 
 !*.doc
 !*.docx
+
+#!.*.mht
+#!.*.url
 
 !Stab_design_1_2.exe
 
