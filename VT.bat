@@ -22,6 +22,11 @@ REM echo "First_input=%1"
 REM echo "Second_input=%2"
 REM echo "Third_input=%3"
 
+REM Try to find more
+REM if "%First_input%"=="" set "First_input=."
+REM if "%Second_input%"=="" set "Second_input=."
+REM if "%Third_input%"=="" set "Third_input=."
+
 REM pause
 REM <<<<<<< HEAD
 REM cd /d "%~dp0"
@@ -83,10 +88,24 @@ if defined COND (
 		set /P to_find=
 	) else (
 		TITLE="mode=finding"
+		
 		set "to_find=%First_input%"
-		REM set "to_replace=%Second_input%"
+			REM set "to_replace=%Second_input%"
 	)
 )
+
+
+for /f "tokens=1,2,3 delims=_ " %%i in ("%to_find%") do (
+	set "to_find=%%i"
+	set "Second_input=%%j"
+	set "Third_input=%%k"
+)
+
+
+rem Fix for true finding
+if "%Second_input%"=="" set "Second_input=."
+if "%Third_input%"=="" set "Third_input=."
+
 REM ___________________________________________________________________________________________________
 
 if "%to_find%"=="dir" (
@@ -95,8 +114,11 @@ if "%to_find%"=="dir" (
 )
 
 if "%to_find%"=="edit" (
-	REM start "" "explorer.exe %~dp0"
 	start "" "C:\Program Files\Notepad++\notepad++.exe" "%me_dir%\VT.bat"
+)
+
+if "%to_find%"=="cmd" (
+	start "" "cmd.exe"
 )
 
 REM echo.
@@ -104,11 +126,14 @@ REM echo. && echo.
 REM echo to_find="%to_find%"
 REM echo to_replace="%to_replace%"
 REM echo.
-for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find%" /c') do (
+REM for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find%" /c') do (
+REM echo for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find%" ^| find /i "%Second_input%" ^| find /i "%Third_input%" /c') do (
+REM pause
+for /f "tokens=*" %%i in ( 'dir /b ^| find /i "%to_find%" ^| find /i "%Second_input%" ^| find /i "%Third_input%" /c') do (
 	if "%%i"=="0" (
-		echo. && echo Nothing_founded for "%to_find%" && set "nothing=true"
+		echo. && echo Nothing_founded for "%to_find%" "%Second_input%" "%Third_input%" && set "nothing=true"
 	) else (
-		echo. && set "nothing=false" && echo Something founded for "%to_find%" [%%i]
+		echo. && set "nothing=false" && echo Something founded for "%to_find%" "%Second_input%" "%Third_input%" [%%i]
 	)
 )
 
@@ -118,28 +143,57 @@ if not "%to_find%"=="" (
 	if "%nothing%"=="true" (
 		REM make only if russian symbols
 		echo Maybe need to try change keyboard layout
-		Call :_notranslit "%to_find%"
+		REM Call :_notranslit "%to_find%"
+		Call :_notranslit "%to_find%_%Second_input%_%Third_input%"
 		REM echo Result="!Result!"
 		REM pause
 		set "to_find_new=!Result!"
-		for /f "tokens=*" %%i in ( 'dir /b ^| find /i "!to_find_new!" /c') do (
+		REM for /f "tokens=*" %%i in ( 'dir /b ^| find /i "!to_find_new!" /c') do (
+		
+		REM echo echo for /f "tokens=1,2,3 delims=_ " %%i in ("!to_find_new!") do
+		for /f "tokens=1,2,3 delims=_ " %%i in ("!to_find_new!") do (
+			set "to_find_new=%%i"
+			set "Second_input=%%j"
+			set "Third_input=%%k"
+		)
+		
+		REM echo to_find_new=!to_find_new!
+		REM echo Second_input=!Second_input!
+		REM echo Third_input=!Third_input!
+		
+		REM for /f "tokens=*" %%i in ( 'dir /b ^| find /i "!to_find_new!" /c') do (
+		for /f "tokens=*" %%i in ( 'dir /b ^| find /i "!to_find_new!" ^| find /i "!Second_input!" ^| find /i "!Third_input!" /c') do (
 			if "%%i"=="0" (
-				echo. && echo Nothing_founded for "!to_find_new!" && set "nothing=true"
+				REM echo. && echo Nothing_founded for "!to_find_new!" && set "nothing=true"
+				echo. && echo Nothing_founded for "!to_find_new!" "!Second_input!" "!Third_input!" && set "nothing=true"
 			) else (
-				echo. && set "nothing=false" && echo Something founded for "!to_find_new!" [%%i]
-				set "to_find=!to_find_new!"
+				REM echo. && set "nothing=false" && echo Something founded for "!to_find_new!" [%%i]
+				echo. && set "nothing=false" && echo Something founded for "!to_find_new!" "!Second_input!" "!Third_input!" [%%i]
+				set "to_find=!to_find_new!_!Second_input!_!Third_input!"
+				set "Second_input=."
+				set "Third_input=."
 			)
 		)
+		
+		for /f "tokens=1,2,3 delims=_ " %%i in ("!to_find!") do (
+			set "to_find=%%i"
+			set "Second_input=%%j"
+			set "Third_input=%%k"
+		)	
 	)
 )
 
 echo.
 
+
+
 REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%"') do (
 REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /v ".rar"') do (
 Setlocal EnableDelayedExpansion
 set CN=0
-for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /v ".rar" ^| find /v ".lnk"') do (
+REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /v ".rar" ^| find /v ".lnk"') do (
+REM for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /i "%Second_input%" ^| find /i "%Third_input%" ^| find /v ".rar" ^| find /v ".lnk"') do (
+for /f "tokens=*" %%i in ('dir /b ^| find /i "%to_find%" ^| find /i "%Second_input%" ^| find /i "%Third_input%" ^| find /v ".rar" ^| find /v ".lnk"') do (
 	REM echo. & rem echo.
 	REM echo.
 	
@@ -255,7 +309,9 @@ goto input
 REM echo END
 REM pause
 REM start "2nd" "%0"
-"%0" "INPUT"
+REM "%0" "INPUT" "!Second_input!" "!Third_input!"
+set "to_find=!to_find!_!Second_input!_!Third_input!"
+"%0" "INPUT" "!Second_input!" "!Third_input!"
 REM ___________________________________________________________________________________________________
 REM todo:
 REM * a lot of strings to search using ,
