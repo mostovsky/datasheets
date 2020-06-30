@@ -3,6 +3,9 @@ cls
 REM verify other 2>nul & setlocal enableextensions & if errorlevel 1 ( echo. & echo Status: Vcliuchenie rasshirenii` komandnogo protcessora nevozmozhno ) else ( echo. & echo Status: OK with expansion )
 REM <<<<<<< HEAD
 REM =======
+REM https://stackoverflow.com/questions/8688846/resize-command-prompt-through-commands
+mode con: cols=160
+REM =======
 set "path=C:\windows\;%path%"
 REM >>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
 setlocal enabledelayedexpansion
@@ -119,6 +122,37 @@ if "%to_find%"=="edit" (
 
 if "%to_find%"=="cmd" (
 	start "" "cmd.exe"
+)
+
+if "%to_find%"=="search" (
+	REM Setlocal EnableDelayedExpansion
+	set /P TextToSearch=TextToSearch=
+	set TextToSearch=!TextToSearch: =%%^20!
+	REM echo "TextToSearch=!TextToSearch!"
+	
+	REM set "LocationPath=%~dp0"
+	set "LocationPath=!me_dir!"
+	REM echo "LocationPath=!LocationPath!"
+	set "LocationPath=!LocationPath::=%%3A!"
+	set "LocationPath=!LocationPath:\=%%5C!"
+	REM echo "LocationPathAfterAdaptive=!LocationPath!"
+	
+	REM search-ms:displayname=Some%20search%20in%20"[datasheets]"&crumb=טלÿפאיכא%3A~~*irfp%20ָָֻ%20System.Generic.String%3A*irfp&crumb=location:H%3A%5Cdata%5C[datasheets]
+	REM set "ExplorerFindString=search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=טלÿפאיכא%%^3A^~^~^*!TextToSearch!%%^20ָָֻ%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+	set "ExplorerFindString=search-ms^:crumb^=filename%%^3A^~^~^*!TextToSearch!%%^20OR%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+	REM echo "search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=טלÿפאיכא%%^3A^~^~^*!TextToSearch!%%^20ָָֻ%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+		REM echo ExplorerFindString=!ExplorerFindString!
+	REM set ExplorerFindString=!ExplorerFindString:"="""!
+	REM echo ExplorerFindString=!ExplorerFindString!
+	
+	REM pause
+	
+	start "" explorer.exe "!ExplorerFindString!"
+	
+	set "to_find=!TextToSearch!"
+	
+	REM Endlocal
+"
 )
 
 REM echo.
