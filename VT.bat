@@ -120,6 +120,11 @@ if "%to_find%"=="edit" (
 	start "" "C:\Program Files\Notepad++\notepad++.exe" "%me_dir%\VT.bat"
 )
 
+if "%to_find%"=="exit" (
+	exit /b
+	goto :really_end
+)
+
 if "%to_find%"=="cmd" (
 	start "" "cmd.exe"
 )
