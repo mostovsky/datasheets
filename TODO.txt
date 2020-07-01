@@ -2,6 +2,8 @@ TODO
 
 * 
 
+* make ckeck for different system words: "Search" or "search" and make translit system-words if nothing founded
+
 * for search: https://www.rlocman.ru/datasheet/search.html?q=
 
 * direct web-link to open local search
