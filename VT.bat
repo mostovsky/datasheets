@@ -152,12 +152,12 @@ if "%to_find%"=="search" (
 	
 	REM pause
 	
-	start "" explorer.exe "!ExplorerFindString!"
+	REM echo start "" explorer.exe "!ExplorerFindString!"
+	start "" /max explorer.exe "!ExplorerFindString!"
 	
 	set "to_find=!TextToSearch!"
 	
 	REM Endlocal
-"
 )
 
 REM echo.
@@ -353,28 +353,7 @@ set "to_find=!to_find!_!Second_input!_!Third_input!"
 "%0" "INPUT" "!Second_input!" "!Third_input!"
 REM ___________________________________________________________________________________________________
 REM todo:
-REM * a lot of strings to search using ,
-REM +* think about bad spaces
-REM * fix with rename (auto by Punto Switcher) and wrong shift (like symbols !@#$%^&*() but not 1234567890)
-REM * use base of words (vocabulary): "LI-ion" = "LIION" = "Lithium"; "BOOST"="UP";
-REM * show elements (in down menu) with more Voltage, more Current, smaller Ton, smaller Rds_on
-REM * make menu for open via number
-REM * a lot of input arguments to check
-REM *+ literal formal for founding (example: current more than 5A)
-REM * open browser-link with "%user_text% pdf" link
-REM * info from analog base
-REM * info from MY base (in the presence in the database = payed by me)
-REM * in the end print list of AppNotes by tag "use-%APPnote_name%" (in finding it will be "_INFO" and "%APPnote_name%"). Example: MC34063 and AN920 appnote
-REM * in the end print list of USES_WITH by tag "with-%Component_name%". Example: "__TP4056__8Vinmax_TempSenceInput_2led_SOP8_with-8205_with-DW01" use "DW01" driver and "8205" mosfets
-REM * in finding use "SC34063" and "NCV34063" in "PWR_DCDC_1.5A_DWN_UP_INV__MC34063_SC_NCV__"
-REM * in finding "MCP73831(2)" = "MCP73831" and "MCP73832"
-REM * RUS coding in search (KP707 = äè707)
-REM += * Translit FIX needed
-REM * In "dcdc" use "ALL" for (LT1370) "It can be operated in all standard switching configurations including boost, buck, flyback, forward, inverting and "Cuk.""
-REM * If nothing found use finding for pre "-" symbol and post "-" symbol
-
-REM in command line use:
-REM cls && set "to_replace=1234__"  && set "to_find=VT_MN_" && setlocal enabledelayedexpansion && for /f "tokens=*" %i in ('dir /b ^| find /i "%to_find%"') do ( echo. & echo. && echo Founded "%i" && echo. && set "asd=%i" && call echo ren "%asd%" "%asd:%to_find%=%to_replace%%" )
+REM moved to external todo.txt file
 REM ___________________________________________________________________________________________________
 :really_end
 cmd "exit /b"
