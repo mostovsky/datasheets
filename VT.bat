@@ -142,10 +142,19 @@ if "%to_find%"=="search" (
 	set "LocationPath=!LocationPath:\=%%5C!"
 	REM echo "LocationPathAfterAdaptive=!LocationPath!"
 	
-	REM search-ms:displayname=Some%20search%20in%20"[datasheets]"&crumb=θμÿτΰιλΰ%3A~~*irfp%20ΘΛΘ%20System.Generic.String%3A*irfp&crumb=location:H%3A%5Cdata%5C[datasheets]
-	REM set "ExplorerFindString=search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=θμÿτΰιλΰ%%^3A^~^~^*!TextToSearch!%%^20ΘΛΘ%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
-	set "ExplorerFindString=search-ms^:crumb^=filename%%^3A^~^~^*!TextToSearch!%%^20OR%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
-	REM echo "search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=θμÿτΰιλΰ%%^3A^~^~^*!TextToSearch!%%^20ΘΛΘ%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+	REM search-ms:displayname=Some%20search%20in%20"[datasheets]"&crumb=θμÿτΰιλΰ%3A~~*irfp%20LTL%20System.Generic.String%3A*irfp&crumb=location:H%3A%5Cdata%5C[datasheets]
+	REM set "ExplorerFindString=search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=θμÿτΰιλΰ%%^3A^~^~^*!TextToSearch!%%^20LTL%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+
+		REM set "ExplorerFindString=search-ms^:crumb^=filename%%^3A^~^~^*!TextToSearch!%%^20OR%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
+		set "ExplorerFindString=search-ms^:displayname^=¥§γ«μβ βλ%%^20―®¨αª %%^20Ά%%^20^[datasheets^]&crumb^=¨¬οδ ©« %%^3A^~^~^*!TextToSearch!^*^*%%^20‹%%^20System.Generic.String%%^3A^*!TextToSearch!^*^*^&crumb^=location^:!LocationPath:~0,-3!"
+		rem 					search-ms:displayname=¥§γ«μβ βλ%20―®¨αª %20Ά%20"[datasheets]"&crumb=¨¬οδ ©« %3A~~*6009%20‹%20System.Generic.String%3A*6009&crumb=location:H%3A%5Cdata%5C[datasheets]
+		REM search-ms:displayname=??????????%20??????%20?%20"[datasheets]"&crumb=????????%3A~~*6009**%20???%20System.Generic.String%3A*6009**&crumb=location:H%3A%5Cdata%5C[datasheets]
+		REM search-ms:displayname=??????????%20??????%20?%20[datasheets]&crumb=????????%3A~~*6009**%20???%20System.Generic.String%3A*6009**&crumb=location:H%3A%5Cdata%5C[datasheets]%5C
+
+REM search-ms:displayname=??????????%20??????%20?%20[datasheets]  &crumb=????????%3A~~*547**%20???%20System.Generic.String%3A*547**&crumb=location:H%3A%5Cdata%5C[datasheets]
+REM search-ms:displayname=??????????%20??????%20?%20"[datasheets]"&crumb=????????%3A~~*547**%20???%20System.Generic.String%3A*547**&crumb=location:H%3A%5Cdata%5C[datasheets]
+
+	REM echo "search-ms^:displayname=Some%%^20search%%^20in%%^20^"^[datasheets^]^"^&crumb^=θμÿτΰιλΰ%%^3A^~^~^*!TextToSearch!%%^20LTL%%^20System.Generic.String%%^3A^*!TextToSearch!^&crumb^=location^:!LocationPath!"
 		REM echo ExplorerFindString=!ExplorerFindString!
 	REM set ExplorerFindString=!ExplorerFindString:"="""!
 	REM echo ExplorerFindString=!ExplorerFindString!
