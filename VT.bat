@@ -117,7 +117,21 @@ if "%to_find%"=="dir" (
 )
 
 if "%to_find%"=="edit" (
-	start "" "C:\Program Files\Notepad++\notepad++.exe" "%me_dir%\VT.bat"
+	REM start "" "C:\Program Files\Notepad++\notepad++.exe" "%me_dir%\VT.bat"
+	set "NotepadPath=%ProgramFiles%\Notepad++\notepad++.exe"      && if exist "!NotepadPath!" start "" "!NotepadPath!" "%me_dir%\VT.bat"
+	set "NotepadPath=%ProgramW6432%\Notepad++\notepad++.exe"      && if exist "!NotepadPath!" start "" "!NotepadPath!" "%me_dir%\VT.bat"
+	set "NotepadPath=%ProgramFiles(x86)%\Notepad++\notepad++.exe" && if exist "!NotepadPath!" start "" "!NotepadPath!" "%me_dir%\VT.bat"
+	set "to_find=."
+)
+
+if "%to_find%"=="rpadedit" (
+	set "rpadpath=%windir%\rpad32.exe"
+	if exist "!rpadpath!" (
+		start "" "!rpadpath!" "%me_dir%\VT.bat"
+		set "to_find=."
+	) else  (
+		echo Rpad dos editor not found or access denied
+	)
 )
 
 if "%to_find%"=="exit" (
