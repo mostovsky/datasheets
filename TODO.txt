@@ -1,6 +1,6 @@
 TODO
 
-* 
+* add command "need rename" for case when open PDF in browser (we can see and rename easy when in browser opened)
 
 
 * multiple check in procedure for all input words (include translit)
