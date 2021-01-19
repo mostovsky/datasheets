@@ -1,5 +1,12 @@
 TODO
 
+* generate url link (command like "export") to .url-file with code like this:
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+URL=https://github.com/mostovsky/datasheets/blob/master/%FileName%
+IDList=
+
 * add command "need rename" for case when open PDF in browser (we can see and rename easy when in browser opened)
 
 
