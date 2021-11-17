@@ -6,7 +6,11 @@ REM =======
 REM https://stackoverflow.com/questions/8688846/resize-command-prompt-through-commands
 mode con: cols=160
 REM =======
+:: WinAVR path-fail fix
 set "path=C:\windows\;%path%"
+set "path=%system32%;%path%"
+set "path=%windir%\System32\;%path%"
+::echo "path=%windir%\System32\;%path%"
 REM >>>>>>> 865722ecfc2cf0faa1917f1255c1c472c3d8740d
 setlocal enabledelayedexpansion
 REM pause
