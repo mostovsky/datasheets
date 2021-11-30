@@ -1,4 +1,11 @@
 @echo off
+REM =======
+:: WinAVR path-fail fix
+set "path=C:\windows\;%path%"
+set "path=%system32%;%path%"
+set "path=%windir%\System32\;%path%"
+::echo "path=%windir%\System32\;%path%"
+REM =======
 echo started in %DATE%_%TIME%
 pause
 REM verify other 2>nul & setlocal enableextensions & if errorlevel 1 ( echo. & echo Status: Vcliuchenie rasshirenii` komandnogo protcessora nevozmozhno ) else ( echo. & echo Status: OK with expansion )
