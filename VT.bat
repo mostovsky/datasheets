@@ -301,6 +301,7 @@ if "%nothing%"=="true" (
 			REM if "!IsStart!"=="" start "" "chrome.exe" "https://www.chipfind.ru/datasheet/search.htm?s=%to_find%"
 			if "!IsStart!"=="" start "" "chrome.exe" "https://www.chipdip.ru/search/library?searchtext=%to_find%"
 		REM if "!IsStart!"=="" start "" "chrome.exe" "https://datasheetspdf.com/datasheet/search.php?sWord=%to_find%"
+		REM if "!IsStart!"=="" start "" "chrome.exe" "https://datasheet-pdf.com/Search-Datasheet-PDF/%to_find%"
 		REM PAUSE
 	)
 	goto :END
